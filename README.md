@@ -1,6 +1,6 @@
 # Oracle-One-Alura
 
-<h1></> Sobre o projeto</h1>
+<h1> Sobre o projeto</h1>
 https://www.oracle.com/br/education/oracle-next-education/
 
 O que é o ONE?
@@ -15,8 +15,11 @@ São 29 CURSOS com uma carga horária estimada em 340h.
 
 
 <h2>Tecnologias estudadas 🚀</h2>
+
+<ul>
 => JavaScript
 => HTML
 => CSS
 => Java
 => JQuery
+</ul>
