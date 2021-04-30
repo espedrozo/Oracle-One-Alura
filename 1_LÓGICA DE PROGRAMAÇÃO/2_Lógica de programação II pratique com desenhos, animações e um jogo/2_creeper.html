@@ -1,0 +1,64 @@
+<canvas width='600' height='400'></canvas>
+
+<script>
+
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+    pincel.fillStyle = 'lightgrey';
+    pincel.fillRect(0,0,600,400);
+
+    //cabeça
+    pincel.fillStyle = 'green';
+    pincel.beginPath();
+    pincel.moveTo(120, 50);
+    pincel.lineTo(120, 350);
+    pincel.lineTo(470, 350);
+    pincel.lineTo(470, 50);
+    pincel.fill();
+
+    //olhos
+    pincel.fillStyle = 'black';
+    pincel.beginPath();
+    pincel.moveTo(170, 110);
+    pincel.lineTo(260, 110);
+    pincel.lineTo(260, 200);
+    pincel.lineTo(170, 200);
+    pincel.fill();
+
+    //olhos
+    pincel.fillStyle = 'black';
+    pincel.beginPath();
+    pincel.moveTo(420, 110);
+    pincel.lineTo(330, 110);
+    pincel.lineTo(330, 200);
+    pincel.lineTo(420, 200);
+    pincel.fill();
+
+    //nariz
+    pincel.fillStyle = 'black';
+    pincel.beginPath();
+    pincel.moveTo(330, 200);
+    pincel.lineTo(260, 200);
+    pincel.lineTo(260, 300);
+    pincel.lineTo(330, 300);
+    pincel.fill();
+
+    //barba direita
+    pincel.fillStyle = 'black';
+    pincel.beginPath();
+    pincel.moveTo(330, 240);
+    pincel.lineTo(375, 240);
+    pincel.lineTo(375, 350);
+    pincel.lineTo(330, 350);
+    pincel.fill();
+
+    //barba esquerda
+    pincel.fillStyle = 'black';
+    pincel.beginPath();
+    pincel.moveTo(260,240);
+    pincel.lineTo(215, 240);
+    pincel.lineTo(215, 350);
+    pincel.lineTo(260, 350);
+    pincel.fill();
+
+</script>

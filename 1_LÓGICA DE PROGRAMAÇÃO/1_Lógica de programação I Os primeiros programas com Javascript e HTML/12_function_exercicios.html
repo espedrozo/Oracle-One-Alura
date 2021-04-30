@@ -1,0 +1,125 @@
+<meta charset="UTF-8">
+<script>
+    function fazPegadinha() {
+        alert("Olá");
+        alert("amiga!");
+        alert("Tá");
+        alert("bastante");
+        alert("entediada?");
+        alert("Em ficar");
+        alert("Clicando em");
+        alert("Ok");
+        alert("né?");
+    }
+
+    fazPegadinha;
+</script>
+
+
+<br>
+
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    mostra("<h1>Bem-vindos</h1>");
+    mostra("<p>Este é um simples programa</p>");
+
+</script>
+
+
+<br>
+
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function exibeTitulo(titulo) {
+        document.write("<h1>" + titulo + "</h1>");
+        pulaLinha();
+    }
+
+    function exibeParagrafo(paragrafo) {
+        document.write("<p>" + paragrafo + "</p>");
+        pulaLinha();
+    }
+
+    // pede para alguém ler daqui em diante e veja se ele entende o que esta sendo feito
+    exibeTitulo("Bem-vindos");
+    exibeParagrafo("Este é um simples programa");
+</script>
+
+<br>
+<br>
+
+<script>
+
+    function pulaLinha() {
+    document.write("<br>");
+}
+
+    function mostra(frase) {
+    document.write(frase);
+    pulaLinha();
+}
+
+
+mostra ("Meu irmão nasceu em 1994, eu nasci em 1991");
+mostra("Nossa diferença de idade é "+ (1994 - 1991));
+
+    var minhaIdade = 29
+    var idadeIrmao = 26
+
+mostra ("Meu irmão tem 26 anos, eu tenho 29 anos");
+mostra ("Nossa diferença de idade é " + (minhaIdade - idadeIrmao) + " anos.");
+
+</script>
+
+<br>
+<br>
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var anoChegada = 1500;
+    var anoAtual = 2020;
+    var totalAnos = anoAtual - anoChegada;
+    mostra("De 1500 até 2020, passaram-se " + totalAnos + " anos");
+    mostra("A média de gerações é de " + Math.round (totalAnos/28));
+</script>
+
+
+ <script>
+        function pulaLinha() {
+            document.write("<br>");
+        }
+
+        function mostra(frase) {
+            document.write(frase);
+            pulaLinha();
+        }
+
+        var idadeMediaQuandoTemFilhos = 28;
+        var anoAtual = 2016; 
+
+        var quantidadeDeGeracoes = (anoAtual - 1500) / idadeMediaQuandoTemFilhos;
+
+        mostra(quantidadeDeGeracoes);
+ </script>

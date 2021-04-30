@@ -1,0 +1,58 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br><br>");
+    }
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function calculaImc(peso, altura) {
+        var imc = peso/(altura*altura);
+        mostra("O imc calculado é " + imc);
+    }
+    var pesoMano = 75;
+    var alturaMano = 1.75;
+    calculaImc(pesoMano, alturaMano);
+
+
+    var pesoAmigo = 68;
+    var alturaAmigo = 1.70;
+    calculaImc(pesoAmigo, alturaAmigo);
+</script>
+
+<br>
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br><br>");
+    }
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function calculaImc(peso, altura) {
+        var imc = peso/(altura*altura);
+        return imc;
+        // ou pode usar direto o return sem a var: 
+        // return peso / (altura*altura);
+
+    }
+    
+    var imcMano = calculaImc(75, 1.75);
+    var imcAmigo = calculaImc(68, 1.70);
+    var totalImc = imcMano + imcAmigo;
+
+    // ou pode usar direto a var totalImc:
+    //var totalImc = calculaImc(75, 1.75); + calculaImc(68, 1.70);
+
+    mostra(imcMano);
+    mostra(imcAmigo);
+    mostra("A soma dos imcs é " + totalImc);
+    mostra("O meu IMC é " + calculaImc(1.63, 48) );
+</script>
