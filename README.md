@@ -17,9 +17,9 @@ São 29 CURSOS com uma carga horária estimada em 340h.
 <h2>Tecnologias estudadas 🚀</h2>
 
 <ul>
-=> JavaScript
-=> HTML
-=> CSS
-=> Java
-=> JQuery
+    <li>=> JavaScript</li>
+    <li>=> HTML</li>
+    <li>=> CSS</li>
+    <li>=> Java</li>
+    <li>=> JQuery</li>
 </ul>
